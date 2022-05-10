@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  background: #312df3;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  width: 50%;
+}
+
+nav > ul > li {
+  width: 100%;
+  list-style: none;
+  margin: 0 auto;
+}
+
+nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.list li {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #755de3;
+  margin: 5px;
+  text-align: center;
+}
+
+.todo-form {
+  margin-bottom: 10px;
+}
+
+.todo-form input {
+  width: 260px;
+  height: 30px;
+  padding: 10px;
+  outline: none;
+  border: 2px solid #4ec5e2;
+}
+
+.todo-form input:focus {
+  border: 1px solid #4ec5e2;
+  box-shadow: 2px 5px 10px #4ec5e2;
+}
+
+.todo-form button {
+  background: #2e06ee;
+  color: white;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #2e06ee;
+  outline: none;
+}
+
+.todo-form button:hover {
+  background: #2abce0;
+  box-shadow: 2px 2px 2px #2abce0;
+}
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
